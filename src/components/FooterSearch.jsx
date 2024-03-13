@@ -1,7 +1,7 @@
 
 export default function FooterSearch() {
     return (
-      <footer className='relative bottom-0 text-sm text-gray-500 bg-[#f2f2f2] w-full'>
+      <footer className='absolute bottom-0 text-sm text-gray-500 bg-[#f2f2f2] w-full'>
         <div className='border-b px-8 py-3'>
           India
         </div>

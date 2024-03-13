@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PaginationButtons from './PaginationButtons';
 // import Parser from 'html-react-parser';
 // import PaginationButtons from './PaginationButtons';
 
@@ -23,7 +24,7 @@ export default function WebSearchResults({ results }) {
           {/* <p className='text-gray-600'>{Parser(result.htmlSnippet)}</p> */}
         </div>
       ))}
-      {/* <PaginationButtons /> */}
+      <PaginationButtons />
     </div>
   );
 }
